@@ -1,70 +1,67 @@
-*{
+body{
     margin: 0%;
     padding: 0%;
-    background-color: orange;
+    background-color: black;
+    text-align: center;
+    color: white;
 }
-
+.header{
+    margin-top: 10px;
+    background-color: black;
+}
+#Abhishek{
+    float: left;
+}
 a{
     color: white;
-    font-size: 15px;
     text-decoration:none;
     font-weight: bold;
-    display: inline-block;
-    padding: 5px;
-    margin: 5px;
-    background-color: orange;
-    
-}
-nav{
-    list-style: none;
-    float: right;
-    margin: 0.1px;
+    margin: 0%;
+    padding: 0%;
 }
 ul{
     list-style: none;
     padding: 0%;
     margin: 0%;
+    float: right;   
 }
 li{
     display: inline-block;
-    background-color: orange;
-    font-weight:800;
-    padding: 10px;
-    margin: 5px;
-    background-size :10px;
-
 }
 ul li a {
     color : white;
     text-decoration:none;
     font-weight: 800;
     font-size: 15px;
-    display: inline-block;
-    padding: 0;
-    margin: 0;
-    display: flex;
+    padding: 10px;
 }
 .about { 
-    text-align: center;
-    padding-top: 100px;
 }
 .skills{
-    text-align: center;
 }
 .projects{
-    text-align: center;
 }
 .contact{
-    text-align: center;
 }
 h2{
-    display: block;
-    font-size: 30px;
-    background-color: orange;
-    color: white;
+    font-size: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: normal;
 }
-.blank{
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 150px;
+    font-weight: lighter;
+}
+#abhi{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+#skill{
+    font-size: 50px;
+    padding: 50px;
     background-color: white;
-    height: 5px;
-    display: flexbox;
+    display: inline-block;
+    color: black;
 }
+
