@@ -35,14 +35,6 @@ ul li a {
     font-size: 15px;
     padding: 10px;
 }
-.about { 
-}
-.skills{
-}
-.projects{
-}
-.contact{
-}
 h2{
     font-size: 80px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -50,7 +42,7 @@ h2{
 }
 h1{
     font-family: 'Courier New', Courier, monospace;
-    font-size: 150px;
+    font-size: 100px;
     font-weight: lighter;
 }
 #abhi{
@@ -64,4 +56,35 @@ h1{
     display: inline-block;
     color: black;
 }
+.allskills{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    color: black;
+}
 
+.allskills div {
+    margin: 10px;
+    padding: 10px;
+    width: 100%;
+    background-color: white;
+}
+.allskills :hover{
+    background-color: whitesmoke;
+}
+.allprojects{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    color: black;
+}
+.allprojects div{
+    margin: 10px;
+    padding: 10px;
+    background-color:white;
+    width: 100%;
+    align-items: center;
+    color: black;
+}
