@@ -1,13 +1,16 @@
 body {
   margin: 0%;
   padding: 0%;
-  background-color: black;
   text-align: center;
+  justify-content: center;
   color: white;
+  background-color: black;
 }
 .header {
-  margin-top: 10px;
   background-color: black;
+  color: black;
+  height: 200px;
+  margin-top: 10px;
 }
 #Abhishek {
   float: left;
@@ -31,44 +34,60 @@ li {
 ul li a {
   color: white;
   text-decoration: none;
-  font-weight: 800;
-  font-size: 2vh;
+  font-size: 14px;
   padding: 10px;
+  color: rgb(237, 224, 224);
+}
+.text-1 {
+  font-size: 175px;
+  font-family: sans-serif;
+  margin-left: -229px;
+  color: rgb(203, 186, 186);
+}
+.text-block-2 {
+  margin-top: -82px;
+}
+.text-2 {
+  font-size: 155px;
+  margin-left: -210px;
+  color: rgb(203, 186, 186);
 }
 h2 {
-  font-size: 10vh;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 70px;
   font-weight: normal;
 }
 h1 {
-  font-family: "Courier New", Courier, monospace;
-  font-size: 10vh;
+  font-size: 158px;
   font-weight: lighter;
+  margin-bottom: -80px;
+  margin-top: 50px;
 }
 #abhi {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-weight: bold;
 }
-#skill {
-  font-size: 50px;
-  padding: 50px;
+.text-about {
   background-color: white;
-  display: inline-block;
   color: black;
+  padding: 30px 0px 30px 0px;
 }
-.allskills {
+.about {
+  margin-top: 200px;
+}
+.skills {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  align-content: center;
   color: black;
+  width: 100%;
+  flex-wrap: wrap;
+  margin: 0%;
+  padding: 0%;
+  justify-content: center;
 }
-
-.allskills div {
-  margin: 10px;
-  padding: 10px;
+.skills div {
   background-color: white;
-  width: 25vw;
+  margin-right: 10px;
+  width: 47vh;
+  margin-bottom: 10px;
 }
 .allskills :hover {
   background-color: whitesmoke;
@@ -87,4 +106,20 @@ h1 {
   width: 100%;
   align-items: center;
   color: black;
+}
+
+@media screen and (max-width: 1200px) {
+  .skills {
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .skills {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
 }
