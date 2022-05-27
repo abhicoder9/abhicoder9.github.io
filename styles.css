@@ -89,23 +89,20 @@ h1 {
   width: 47vh;
   margin-bottom: 10px;
 }
-.allskills :hover {
-  background-color: whitesmoke;
-}
-.allprojects {
+.projects {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  align-content: center;
   color: black;
-}
-.allprojects div {
-  margin: 10px;
-  padding: 10px;
-  background-color: white;
   width: 100%;
-  align-items: center;
-  color: black;
+  flex-wrap: wrap;
+  margin: 0%;
+  padding: 0%;
+  justify-content: center;
+}
+.projects div {
+  background-color: white;
+  margin-right: 10px;
+  width: 47vh;
+  margin-bottom: 10px;
 }
 
 @media screen and (max-width: 1200px) {
