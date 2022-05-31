@@ -113,6 +113,13 @@ h2 {
 .myskills {
   margin-top: 200px;
 }
+.social-link {
+  padding: 30px;
+  color: black;
+}
+img {
+  height: 50px;
+}
 
 @media (max-width: 700px) {
   .nav {
