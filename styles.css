@@ -66,16 +66,15 @@ h1 {
   color: black;
   width: 100%;
   flex-wrap: wrap;
-  margin: 0%;
-  padding: 0%;
   justify-content: center;
+  box-sizing: border-box;
 }
-.skills div {
+.skill {
   background-color: white;
-  margin-right: 10px;
+  margin: 9px;
   width: 45vh;
   height: 250px;
-  margin-bottom: 10px;
+  box-sizing: border-box;
 }
 .projects {
   display: flex;
