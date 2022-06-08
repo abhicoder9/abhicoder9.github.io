@@ -144,6 +144,14 @@ img {
 }
 
 @media (max-width: 700px) {
+  nav {
+    height: 50vh;
+    margin: 0%;
+    padding: 0%;
+  }
+  .header {
+    height: 100vh;
+  }
   .nav {
     height: 100vh;
     width: 200px;
@@ -172,19 +180,23 @@ img {
   .text-1,
   .text-2 {
     font-size: 100px;
-    margin-left: -135px;
+    margin-left: -75px;
   }
   .text-block-2 {
-    margin-top: -50px;
-    margin-left: 15px;
+    margin-top: -45px;
+    margin-left: 20px;
   }
   .icon {
     display: inline-block;
   }
   #nav-icon {
-    margin-left: 170px;
+    margin-top: -10px;
+    margin-left: 140px;
     display: block;
-    font-size: 20px;
+    font-size: 60px;
     cursor: pointer;
+  }
+  #Abhishek {
+    font-size: 30px;
   }
 }
