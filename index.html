@@ -16,7 +16,8 @@
       <nav>
         <a href="index.html" id="Abhishek">ABHISHEK</a>
         <div class="nav">
-          <ul>
+          <span onclick="myfunction()" id="nav-icon">&#9776;</span>
+          <ul id="menu">
             <li><a href="#home">HOME</a></li>
             <li><a href="#about">ABOUT</a></li>
             <li><a href="#skills">SKILLS</a></li>
@@ -24,9 +25,6 @@
             <li><a href="#contact">CONTACT</a></li>
           </ul>
         </div>
-        <!--<a href="javascript:void(0);" class="icon" onclick="myFunction()">
-          <i class="fa fa-bars"></i>
-        </a>-->
       </nav>
     </div>
     <div class="intro">
@@ -69,13 +67,18 @@
     <h2 class="myprojects">My Projects</h2>
     <div class="projects">
       <div>
-        <a href="https://abhicoder9.github.io/StopWatch/" style="color: black">
-          <h2>TIMER</h2>
-          <p>pending</p>
-        </a>
+        <h2>TIMER</h2>
+        <button id="stopwatch">
+          <a
+            href="https://abhicoder9.github.io/StopWatch/"
+            style="color: black"
+          >
+            OPEN</a
+          >
+        </button>
       </div>
       <div>
-        <h2>PROJECT 1</h2>
+        <h2>Project 1</h2>
         <p>Not available</p>
       </div>
       <div>
@@ -116,5 +119,15 @@
         </div>
       </div>
     </div>
+    <script>
+      function myfunction() {
+        var x = document.getElementById("menu");
+        if (x.style.display == "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+    </script>
   </body>
 </html>
