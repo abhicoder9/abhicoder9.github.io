@@ -5,7 +5,6 @@ body {
   justify-content: center;
   color: white;
   background-color: black;
-  font-family: sans-serif;
 }
 .header {
   height: 200px;
@@ -14,7 +13,6 @@ body {
 #Abhishek {
   float: left;
   margin-left: 10px;
-  font-size: 35px;
 }
 a {
   color: white;
@@ -31,8 +29,8 @@ li {
 }
 ul li a {
   text-decoration: none;
-  font-size: 20px;
-  padding: 15px;
+  font-size: 14px;
+  padding: 10px;
   color: rgb(237, 224, 224);
 }
 .text-1 {
@@ -156,7 +154,7 @@ img {
   height: 50px;
 }
 
-@media (max-width:900px) {
+@media (max-width: 700px) {
   nav {
     height: 50vh;
     margin: 0%;
